@@ -358,17 +358,17 @@
                             </tr>
                 
                         <tr>
-                            <td><a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</a>
+                            <td><a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</a>
                             </td>
                     
-                                <td>src:SCR_007037</td>
+                                <td>scr:SCR_007037</td>
                             </tr>
                 
                         <tr>
-                            <td><a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</a>
+                            <td><a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</a>
                             </td>
                     
-                                <td>src:SCR_002823</td>
+                                <td>scr:SCR_002823</td>
                             </tr>
                 
                 </tbody>
@@ -396,8 +396,8 @@
 
 
 niiri:nidm_results_id a prov:Entity , prov:Bundle, nidm_NIDMResults: ;
-	rdfs:label "NIDM-Results" ;
-	nidm_version: "1.1.0"^^xsd:string .
+	rdfs:label "NIDM-Results"^^xsd:string; ;
+	nidm_version: "1.3.0"^^xsd:string .
 
 _:blank1 a prov:Generation ;
     prov:activity niiri:export_id .
@@ -512,7 +512,7 @@ niiri:map_header_id a prov:Entity , nidm_MapHeader: ;
 
 
 niiri:coordinate_space_id_1 a prov:Entity , nidm_CoordinateSpace: ;
-	rdfs:label "Coordinate space 1" ;
+	rdfs:label "Coordinate space 1"^^xsd:string; ;
 	nidm_voxelToWorldMapping: "[[-3, 0, 0, 78],[0, 3, 0, -112],[0, 0, 3, -50],[0, 0, 0, 1]]"^^xsd:string ;
 	nidm_voxelUnits: "[ \"mm\", \"mm\", \"mm\" ]"^^xsd:string ;
 	nidm_voxelSize: "[ 3, 3, 3 ]"^^xsd:string ;
@@ -567,7 +567,7 @@ niiri:coordinate_space_id_1 a prov:Entity , nidm_CoordinateSpace: ;
             <section id="section-nidm:'Neuroimaging Analysis Software'">
                 <h1 label="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</h1>
                 <div class="glossary-ref">
-                    <a title="NIDM_0000164"><dfn title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'Neuroimaging Analysis Software''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: Tool used to process neuroimaging data.<p> <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a> is a prov:Agent and  has the following children: <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</a>, <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</a>.</p>
+                    <a title="NIDM_0000164"><dfn title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'Neuroimaging Analysis Software''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: Tool used to process neuroimaging data.<p> <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a> is a prov:Agent and  has the following children: <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</a>, <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</a>.</p>
                 </div>
                 <p></p>
                 <div class="attributes" id="attributes-nidm:'Neuroimaging Analysis Software'"> A <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a> has attributes:
@@ -577,39 +577,39 @@ niiri:coordinate_space_id_1 a prov:Entity , nidm_CoordinateSpace: ;
                 </ul>
                 </div>
                 </section>
-            <!-- src:'SPM' (SCR_007037) -->
-            <section id="section-src:'SPM'">
-                <h1 label="SCR_007037">src:'SPM'</h1>
+            <!-- scr:'SPM' (SCR_007037) -->
+            <section id="section-scr:'SPM'">
+                <h1 label="SCR_007037">scr:'SPM'</h1>
                 <div class="glossary-ref">
-                    <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037"><dfn title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'src:'SPM''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: Software package for the analysis of brain imaging data sequences. The sequences can be a series of images from different cohorts, or time-series from the same subject. The current release is designed for the analysis of fMRI, PET, SPECT, EEG and MEG.<p> <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</a> is a <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a>.</p>
+                    <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037"><dfn title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'scr:'SPM''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: Software package for the analysis of brain imaging data sequences. The sequences can be a series of images from different cohorts, or time-series from the same subject. The current release is designed for the analysis of fMRI, PET, SPECT, EEG and MEG.<p> <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</a> is a <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a>.</p>
                 </div>
                 <p></p>
-                <div class="attributes" id="attributes-src:'SPM'"> A <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</a> has attributes:
+                <div class="attributes" id="attributes-scr:'SPM'"> A <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</a> has attributes:
                 <ul>
-                    <li><span class="attribute" id="src:'SPM'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">src:'SPM'</a>.</li>
+                    <li><span class="attribute" id="scr:'SPM'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="SCR_007037" href ="http://scicrunch.org/resolver/SCR_007037">scr:'SPM'</a>.</li>
                         <li><a title="NIDM_0000122">nidm:'software Version'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name and number that specifies the software version. For SPM, this includes the main software version followed by the revision number (e.g. 8.6225 for SPM8 revision 6225). (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                 </ul>
                 </div>
                 </ul>
                 </div>
                 <pre class='example highlight' title="">@prefix nidm_softwareVersion: &lt;http://purl.org/nidash/nidm#NIDM_0000122&gt; .
-@prefix src_SPM: &lt;http://scicrunch.org/resolver/SCR_007037&gt; .
+@prefix scr_SPM: &lt;http://scicrunch.org/resolver/SCR_007037&gt; .
 
 
-niiri:spm_software_id a prov:Agent , src_SPM: , prov:SoftwareAgent ;
-	rdfs:label "SPM" ;
+niiri:spm_software_id a prov:Agent , scr_SPM: , prov:SoftwareAgent ;
+	rdfs:label "SPM"^^xsd:string; ;
 	nidm_softwareVersion: "8.6225"^^xsd:string .</pre>
                 </section>
-            <!-- src:'FSL' (SCR_002823) -->
-            <section id="section-src:'FSL'">
-                <h1 label="SCR_002823">src:'FSL'</h1>
+            <!-- scr:'FSL' (SCR_002823) -->
+            <section id="section-scr:'FSL'">
+                <h1 label="SCR_002823">scr:'FSL'</h1>
                 <div class="glossary-ref">
-                    <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823"><dfn title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'src:'FSL''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: A comprehensive library of image analysis and statistical tools for fMRI, MRI and DTI brain imaging data. The tools include registration, atlases, Diffusion MRI tools for parameter reconstruction and probabilistic taractography, and a viewer. FSL runs on Apple and PCs (Linux and Windows), and is very easy to install. Most of the tools can be run both from the command line and as GUIs ('point-and-click' graphical user interfaces). Several complementary brain atlases, integrated into FSLView and Featquery, allowing viewing of structural and cytoarchitectonic standard space labels and probability maps for cortical and subcortical structures and white matter tracts. Atlases included with FSL: * Harvard-Oxford cortical and subcortical structural atlases * Julich histological atlas * JHU DTI-based white-matter atlases * Oxford thalamic connectivity atlas * Talairach atlas * MNI structural atlas * Cerebellum atlas FSL is written mainly by members of the Analysis Group, FMRIB, Oxford, UK.<p> <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</a> is a <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a>.</p>
+                    <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823"><dfn title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'scr:'FSL''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a>: A comprehensive library of image analysis and statistical tools for fMRI, MRI and DTI brain imaging data. The tools include registration, atlases, Diffusion MRI tools for parameter reconstruction and probabilistic taractography, and a viewer. FSL runs on Apple and PCs (Linux and Windows), and is very easy to install. Most of the tools can be run both from the command line and as GUIs ('point-and-click' graphical user interfaces). Several complementary brain atlases, integrated into FSLView and Featquery, allowing viewing of structural and cytoarchitectonic standard space labels and probability maps for cortical and subcortical structures and white matter tracts. Atlases included with FSL: * Harvard-Oxford cortical and subcortical structural atlases * Julich histological atlas * JHU DTI-based white-matter atlases * Oxford thalamic connectivity atlas * Talairach atlas * MNI structural atlas * Cerebellum atlas FSL is written mainly by members of the Analysis Group, FMRIB, Oxford, UK.<p> <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</a> is a <a title="NIDM_0000164">nidm:'Neuroimaging Analysis Software'</a>.</p>
                 </div>
                 <p></p>
-                <div class="attributes" id="attributes-src:'FSL'"> A <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</a> has attributes:
+                <div class="attributes" id="attributes-scr:'FSL'"> A <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</a> has attributes:
                 <ul>
-                    <li><span class="attribute" id="src:'FSL'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">src:'FSL'</a>.</li>
+                    <li><span class="attribute" id="scr:'FSL'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="SCR_002823" href ="http://scicrunch.org/resolver/SCR_002823">scr:'FSL'</a>.</li>
                         <li><a title="FSL_0000005"><dfn title="FSL_0000005">fsl:'feat Version'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'fsl:'feat Version''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Version of the FEAT software. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="NIDM_0000122">nidm:'software Version'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name and number that specifies the software version. For SPM, this includes the main software version followed by the revision number (e.g. 8.6225 for SPM8 revision 6225). (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                 </ul>
@@ -618,11 +618,11 @@ niiri:spm_software_id a prov:Agent , src_SPM: , prov:SoftwareAgent ;
                 </div>
                 <pre class='example highlight' title="">@prefix nidm_softwareVersion: &lt;http://purl.org/nidash/nidm#NIDM_0000122&gt; .
 @prefix fsl_featVersion: &lt;http://purl.org/nidash/fsl#FSL_0000005&gt; .
-@prefix src_FSL: &lt;http://scicrunch.org/resolver/SCR_002823&gt; .
+@prefix scr_FSL: &lt;http://scicrunch.org/resolver/SCR_002823&gt; .
 
 
-niiri:software_id a prov:Agent , src_FSL: , prov:SoftwareAgent ;
-	rdfs:label "FSL" ;
+niiri:software_id a prov:Agent , scr_FSL: , prov:SoftwareAgent ;
+	rdfs:label "FSL"^^xsd:string; ;
 	nidm_softwareVersion: "5.0.1"^^xsd:string ;
 	fsl_featVersion: "6.00"^^xsd:string .</pre>
                 </section>
@@ -747,7 +747,7 @@ niiri:export_id prov:wasAssociatedWith niiri:exporter_id .</pre>
 
 
 niiri:exporter_id a prov:Agent, nidm_nidmfsl: , prov:SoftwareAgent ;
-	rdfs:label "nidmfsl" ;
+	rdfs:label "nidmfsl"^^xsd:string; ;
 	nidm_softwareVersion: "0.2.0"^^xsd:string .</pre>
                 </section>
             <!-- nidm:'spm_results_nidm' (NIDM_0000168) -->
@@ -770,7 +770,7 @@ niiri:exporter_id a prov:Agent, nidm_nidmfsl: , prov:SoftwareAgent ;
 
 
 niiri:exporter_id a prov:Agent, nidm_spm_results_nidm: , prov:SoftwareAgent ;
-	rdfs:label "spm_results_nidm" ;
+	rdfs:label "spm_results_nidm"^^xsd:string; ;
 	nidm_softwareVersion: "12b.5858"^^xsd:string .</pre>
                 </section>
             </section>
@@ -894,7 +894,7 @@ niiri:exporter_id a prov:Agent, nidm_spm_results_nidm: , prov:SoftwareAgent ;
                 <div class="attributes" id="attributes-nidm:'Model Parameter Estimation'"> A <a title="NIDM_0000056">nidm:'Model Parameter Estimation'</a> has attributes:
                 <ul>
                     <li><span class="attribute" id="nidm:'Model Parameter Estimation'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="NIDM_0000056">nidm:'Model Parameter Estimation'</a>.</li>
-                        <li><a title="NIDM_0000134"><dfn title="NIDM_0000134">nidm:'with Estimation Method'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'with Estimation Method''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000119">stato:"model parameter estimation"</a> method with a model parameter estimation. (range <a title="STATO_0000119" href ="http://purl.obolibrary.org/obo/STATO_0000119">obo:'model parameter estimation'</a> such as <a title="STATO_0000372" href ="http://purl.obolibrary.org/obo/STATO_0000372">obo:'generalized least squares estimation'</a>, <a title="STATO_0000373" href ="http://purl.obolibrary.org/obo/STATO_0000373">obo:'iteratively reweighted least squares estimation'</a>, <a title="STATO_0000370" href ="http://purl.obolibrary.org/obo/STATO_0000370">obo:'ordinary least squares estimation'</a>, <a title="STATO_0000371" href ="http://purl.obolibrary.org/obo/STATO_0000371">obo:'weighted least squares estimation'</a>).</li>
+                        <li><a title="NIDM_0000134"><dfn title="NIDM_0000134">nidm:'with Estimation Method'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'with Estimation Method''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000119">stato:&quot;model parameter estimation&quot;</a> method with a model parameter estimation. (range <a title="STATO_0000119" href ="http://purl.obolibrary.org/obo/STATO_0000119">obo:'model parameter estimation'</a> such as <a title="STATO_0000372" href ="http://purl.obolibrary.org/obo/STATO_0000372">obo:'generalized least squares estimation'</a>, <a title="STATO_0000373" href ="http://purl.obolibrary.org/obo/STATO_0000373">obo:'iteratively reweighted least squares estimation'</a>, <a title="STATO_0000370" href ="http://purl.obolibrary.org/obo/STATO_0000370">obo:'ordinary least squares estimation'</a>, <a title="STATO_0000371" href ="http://purl.obolibrary.org/obo/STATO_0000371">obo:'weighted least squares estimation'</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -908,7 +908,7 @@ niiri:exporter_id a prov:Agent, nidm_spm_results_nidm: , prov:SoftwareAgent ;
 
 niiri:model_pe_id prov:used niiri:error_model_id ;
 	a prov:Activity , nidm_ModelParameterEstimation: ;
-	rdfs:label "Model parameters estimation" ;
+	rdfs:label "Model parameters estimation"^^xsd:string; ;
 	nidm_withEstimationMethod: obo_ordinaryleastsquaresestimation: ;
 	prov:used niiri:design_matrix_id ;
     prov:used niiri:data_id ;
@@ -926,7 +926,7 @@ niiri:model_pe_id prov:used niiri:error_model_id ;
                 <ul>
                     <li><span class="attribute" id="nidm:'Data'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="NIDM_0000169">nidm:'Data'</a>.</li>
                         <li><a title="NIDM_0000096"><dfn title="NIDM_0000096">nidm:'grand Mean Scaling'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'grand Mean Scaling''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Binary flag defining whether the data was scaled (true for scaled). Specifically, "grand mean scaling" refers to multiplication of every voxel in every scan by a common (or session-specific) value. (range <a title="boolean" href ="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a>).</li>
-                        <li><a title="NIDM_0000124"><dfn title="NIDM_0000124">nidm:'target Intensity'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'target Intensity''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Value to which the grand mean of the Data was scaled (applies only if <a title=NIDM_0000096>'grand Mean Scaling'</a> is true). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000124"><dfn title="NIDM_0000124">nidm:'target Intensity'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'target Intensity''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Value to which the grand mean of the Data was scaled (applies only if <a title=NIDM_0000096>'grand Mean Scaling'</a> is true). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="NIDM_0000172"><dfn title="NIDM_0000172">nidm:'has MRI Protocol'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'has MRI Protocol''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) 'MRI Protocol' used to acquire these <a title=NIDM_0000169>'Data'</a>. (range <a title="birnlex_2177" href ="http://uri.neuinfo.org/nif/nifstd/birnlex_2177">nlx:'MRI protocol'</a> such as <a title="birnlex_2250" href ="http://uri.neuinfo.org/nif/nifstd/birnlex_2250">nlx:'Functional MRI protocol'</a>, <a title="birnlex_2251" href ="http://uri.neuinfo.org/nif/nifstd/birnlex_2251">nlx:'Structural MRI protocol'</a>).</li>
                 </ul>
                 </div>
@@ -942,7 +942,7 @@ niiri:model_pe_id prov:used niiri:error_model_id ;
 
 
 niiri:data_id a prov:Entity , nidm_Data: , prov:Collection ;
-    rdfs:label "Data" ;
+    rdfs:label "Data"^^xsd:string; ;
     nidm_grandMeanScaling: "true"^^xsd:boolean ;
     nidm_targetIntensity: "100"^^xsd:float ;
     nidm_hasMRIProtocol: nlx_FunctionalMRIprotocol: ;
@@ -976,7 +976,7 @@ niiri:data_id a prov:Entity , nidm_Data: , prov:Collection ;
 
 
 niiri:design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
-    rdfs:label "Design Matrix" ;
+    rdfs:label "Design Matrix"^^xsd:string; ;
     prov:atLocation "DesignMatrix.csv"^^xsd:anyURI ;
     dct:format "text/csv"^^xsd:string ;
     nfo:fileName "DesignMatrix.csv"^^xsd:string ;
@@ -992,7 +992,7 @@ niiri:design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
 
 
 niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
-    rdfs:label "First-Level Design Matrix" ;
+    rdfs:label "First-Level Design Matrix"^^xsd:string; ;
     prov:atLocation "DesignMatrix.csv"^^xsd:anyURI ;
     dct:format "text/csv"^^xsd:string ;
     nfo:fileName "DesignMatrix.csv"^^xsd:string ;
@@ -1038,7 +1038,7 @@ niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
 
 
 niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
-    rdfs:label "First-Level Design Matrix" ;
+    rdfs:label "First-Level Design Matrix"^^xsd:string; ;
     prov:atLocation "DesignMatrix.csv"^^xsd:anyURI ;
     dct:format "text/csv"^^xsd:string ;
     nfo:fileName "DesignMatrix.csv"^^xsd:string ;
@@ -1081,7 +1081,7 @@ niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
 
 
 niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
-    rdfs:label "First-Level Design Matrix" ;
+    rdfs:label "First-Level Design Matrix"^^xsd:string; ;
     prov:atLocation "DesignMatrix.csv"^^xsd:anyURI ;
     dct:format "text/csv"^^xsd:string ;
     nfo:fileName "DesignMatrix.csv"^^xsd:string ;
@@ -1165,7 +1165,7 @@ niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
                 <div class="attributes" id="attributes-fsl:'Gaussian Running Line Drift Model'"> A <a title="FSL_0000002">fsl:'Gaussian Running Line Drift Model'</a> has attributes:
                 <ul>
                     <li><span class="attribute" id="fsl:'Gaussian Running Line Drift Model'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="FSL_0000002">fsl:'Gaussian Running Line Drift Model'</a>.</li>
-                        <li><a title="FSL_0000004"><dfn title="FSL_0000004">fsl:'drift Cutoff Period'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'fsl:'drift Cutoff Period''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Doubled standard deviation in seconds of the Gaussian weight function used in the running line smoother. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="FSL_0000004"><dfn title="FSL_0000004">fsl:'drift Cutoff Period'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'fsl:'drift Cutoff Period''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Doubled standard deviation in seconds of the Gaussian weight function used in the running line smoother. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -1177,7 +1177,7 @@ niiri:first_level_design_matrix_id a prov:Entity , nidm_DesignMatrix: ;
 
 
 niiri:drift_model_id a prov:Entity , fsl_GaussianRunningLineDriftModel: ;
-	rdfs:label "FSL's Gaussian Running Line Drift Model" ;
+	rdfs:label "FSL's Gaussian Running Line Drift Model"^^xsd:string; ;
 	fsl_driftCutoffPeriod: "2"^^xsd:float .</pre>
                 </section>
             <!-- spm:'Discrete Cosine Transform basis Drift Model' (SPM_0000002) -->
@@ -1190,7 +1190,7 @@ niiri:drift_model_id a prov:Entity , fsl_GaussianRunningLineDriftModel: ;
                 <div class="attributes" id="attributes-spm:'Discrete Cosine Transform basis Drift Model'"> A <a title="SPM_0000002">spm:'Discrete Cosine Transform basis Drift Model'</a> has attributes:
                 <ul>
                     <li><span class="attribute" id="spm:'Discrete Cosine Transform basis Drift Model'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="SPM_0000002">spm:'Discrete Cosine Transform basis Drift Model'</a>.</li>
-                        <li><a title="SPM_0000001"><dfn title="SPM_0000001">spm:'SPM's Drift Cut-off Period'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'spm:'SPM's Drift Cut-off Period''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Discrete Cosine Transform basis cut-off, specified as period length in seconds and ensures that all basis elements will have period of this duration or longer. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="SPM_0000001"><dfn title="SPM_0000001">spm:'SPM's Drift Cut-off Period'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'spm:'SPM's Drift Cut-off Period''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Discrete Cosine Transform basis cut-off, specified as period length in seconds and ensures that all basis elements will have period of this duration or longer. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -1202,7 +1202,7 @@ niiri:drift_model_id a prov:Entity , fsl_GaussianRunningLineDriftModel: ;
 
 
 niiri:drift_model_id a prov:Entity , spm_DiscreteCosineTransformbasisDriftModel: ;
-	rdfs:label "SPM's DCT Drift Model" ;
+	rdfs:label "SPM's DCT Drift Model"^^xsd:string; ;
 	spm_SPMsDriftCutoffPeriod: "128"^^xsd:float .</pre>
                 </section>
                 </section>
@@ -1331,7 +1331,7 @@ niiri:error_model_id a prov:Entity , nidm_ErrorModel: ;
                         <li><a title="format" href ="http://purl.org/dc/terms/format">dct:format</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The file format, physical medium, or dimensions of the resource. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="NIDM_0000103">nidm:'has Map Header'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A Property that associates an additional file containing the <a title=NIDM_0000053>'Map Header'</a> with a map. (range <a title="NIDM_0000053">nidm:'Map Header'</a>).</li>
                         <li><a title="NIDM_0000104">nidm:'in Coordinate Space'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property of a DataArray to associate a <a title=NIDM_0000016>'Coordinate Space'</a> with a physical file. (range <a title="NIDM_0000016">nidm:'Coordinate Space'</a>).</li>
-                        <li><a title="NIDM_0000107"><dfn title="NIDM_0000107">nidm:'masked Median'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'masked Median''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Median value considering only in-mask voxels. Useful diagnostic when computed on grand mean image when grandMeanScaling is TRUE, as the median should be close to targetIntensity. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000107"><dfn title="NIDM_0000107">nidm:'masked Median'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'masked Median''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Median value considering only in-mask voxels. Useful diagnostic when computed on grand mean image when grandMeanScaling is TRUE, as the median should be close to targetIntensity. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="fileName" href ="http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName">nfo:'fileName'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name of the file, together with the extension. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="atLocation" href ="http://www.w3.org/ns/prov#atLocation">prov:atLocation</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The Location of any resource.
                 </ul>
@@ -1346,7 +1346,7 @@ niiri:error_model_id a prov:Entity , nidm_ErrorModel: ;
 
 
 niiri:grand_mean_map_id a prov:Entity , nidm_GrandMeanMap: ;
-	rdfs:label "Grand Mean Map" ;
+	rdfs:label "Grand Mean Map"^^xsd:string; ;
 	prov:atLocation "GrandMean.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "GrandMean.nii.gz"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string ;
@@ -1386,7 +1386,7 @@ niiri:grand_mean_map_id a prov:Entity , nidm_GrandMeanMap: ;
 
 niiri:model_pe_id prov:used niiri:mask_id_2 .
 niiri:mask_id_2 a prov:Entity , nidm_MaskMap: ;
-	rdfs:label "Mask" ;
+	rdfs:label "Mask"^^xsd:string; ;
     nidm_isUserDefined: "false"^^xsd:boolean ;
 	prov:atLocation "Mask.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "Mask.nii.gz"^^xsd:string ;
@@ -1443,10 +1443,11 @@ niiri:mask_id_2 a prov:Entity , nidm_MaskMap: ;
 niiri:beta_map_id_1 prov:wasGeneratedBy niiri:model_pe_id .
 
 niiri:beta_map_id_1 a prov:Entity , nidm_ParameterEstimateMap: ;
-    rdfs:label "Beta Map 1" ;
-    nfo:fileName "ParameterEstimate_0001.nii.gz"^^xsd:string ;
+    rdfs:label "Beta Map 1"^^xsd:string; ;
     nidm_inCoordinateSpace: niiri:coordinate_space_id_1 ;
     crypto:sha512 "e43b6e01b0463fe7d40782137867a"^^xsd:string ;
+    prov:atLocation "ParameterEstimate_001.nii.gz"^^xsd:anyURI ;
+    nfo:fileName "ParameterEstimate_001.nii.gz"^^xsd:string ;
     dct:format "image/nifti"^^xsd:string .</pre>
                 </section>
             <!-- nidm:'Resels Per Voxel Map' (NIDM_0000144) -->
@@ -1476,7 +1477,7 @@ niiri:beta_map_id_1 a prov:Entity , nidm_ParameterEstimateMap: ;
 
 
 niiri:resels_per_voxel_map_id a prov:Entity , nidm_ReselsPerVoxelMap: ;
-	rdfs:label "Resels per Voxel Map" ;
+	rdfs:label "Resels per Voxel Map"^^xsd:string; ;
 	prov:atLocation "ReselsPerVoxel.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "ReselsPerVoxel.nii.gz"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string ;
@@ -1511,7 +1512,7 @@ niiri:resels_per_voxel_map_id a prov:Entity , nidm_ReselsPerVoxelMap: ;
 
 
 niiri:residual_mean_squares_map_id a prov:Entity , nidm_ResidualMeanSquaresMap: ;
-	rdfs:label "Residual Mean Squares Map" ;
+	rdfs:label "Residual Mean Squares Map"^^xsd:string; ;
 	prov:atLocation "ResidualMeanSquares.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "ResidualMeanSquares.nii.gz"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string ;
@@ -1543,7 +1544,7 @@ niiri:residual_mean_squares_map_id a prov:Entity , nidm_ResidualMeanSquaresMap: 
 
 
 niiri:group_id a prov:Entity , obo_studygrouppopulation: ;
-    rdfs:label "Group: Control" ;
+    rdfs:label "Group: Control"^^xsd:string; ;
     nidm_groupName: "Control"^^xsd:string ;
     nidm_numberOfSubjects: "23"^^xsd:int .</pre>
                 </section>
@@ -1670,7 +1671,7 @@ niiri:group_id a prov:Entity , obo_studygrouppopulation: ;
 
 
 niiri:contrast_estimation_id a prov:Activity , nidm_ContrastEstimation: ;
-	rdfs:label "Contrast estimation" ;
+	rdfs:label "Contrast estimation"^^xsd:string; ;
 	prov:used niiri:mask_id_2 , niiri:residual_mean_squares_map_id , niiri:design_matrix_id , niiri:contrast_id, niiri:beta_map_id_1 ;
     prov:wasAssociatedWith niiri:software_id .</pre>
                 </section>
@@ -1685,7 +1686,7 @@ niiri:contrast_estimation_id a prov:Activity , nidm_ContrastEstimation: ;
                 <ul>
                     <li><span class="attribute" id="obo:'contrast weight matrix'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="STATO_0000323" href ="http://purl.obolibrary.org/obo/STATO_0000323">obo:'contrast weight matrix'</a>.</li>
                         <li><a title="NIDM_0000085"><dfn title="NIDM_0000085">nidm:'contrast Name'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'contrast Name''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name of the contrast. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
-                        <li><a title="NIDM_0000123"><dfn title="NIDM_0000123">nidm:'statistic Type'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'statistic Type''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000039">stato:"statistic"</a> with a StatisticMap or a ContrastWeights entity. (range <a title="STATO_0000039" href ="http://purl.obolibrary.org/obo/STATO_0000039">obo:'statistic'</a> such as <a title="STATO_0000030" href ="http://purl.obolibrary.org/obo/STATO_0000030">obo:'Chi-Squared statistic'</a>, <a title="STATO_0000282" href ="http://purl.obolibrary.org/obo/STATO_0000282">obo:'F-statistic'</a>, <a title="STATO_0000376" href ="http://purl.obolibrary.org/obo/STATO_0000376">obo:'Z-statistic'</a>, <a title="STATO_0000176" href ="http://purl.obolibrary.org/obo/STATO_0000176">obo:'t-statistic'</a>).</li>
+                        <li><a title="NIDM_0000123"><dfn title="NIDM_0000123">nidm:'statistic Type'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'statistic Type''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000039">stato:&quot;statistic&quot;</a> with a StatisticMap or a ContrastWeights entity. (range <a title="STATO_0000039" href ="http://purl.obolibrary.org/obo/STATO_0000039">obo:'statistic'</a> such as <a title="STATO_0000030" href ="http://purl.obolibrary.org/obo/STATO_0000030">obo:'Chi-Squared statistic'</a>, <a title="STATO_0000282" href ="http://purl.obolibrary.org/obo/STATO_0000282">obo:'F-statistic'</a>, <a title="STATO_0000376" href ="http://purl.obolibrary.org/obo/STATO_0000376">obo:'Z-statistic'</a>, <a title="STATO_0000176" href ="http://purl.obolibrary.org/obo/STATO_0000176">obo:'t-statistic'</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -1702,7 +1703,7 @@ niiri:contrast_estimation_id a prov:Activity , nidm_ContrastEstimation: ;
 
 
 niiri:contrast_id a prov:Entity , obo_contrastweightmatrix: ;
-	rdfs:label "Contrast: Listening &gt; Rest" ;
+	rdfs:label "Contrast: Listening &gt; Rest"^^xsd:string; ;
 	prov:value "[ 1, 0, 0 ]"^^xsd:string ;
 	nidm_statisticType: obo_tstatistic: ; # obo:'t-statistic'
 	nidm_contrastName: "listening &gt; rest"^^xsd:string .</pre>
@@ -1736,7 +1737,7 @@ niiri:contrast_id a prov:Entity , obo_contrastweightmatrix: ;
 
 
 niiri:contrast_map_id a prov:Entity , nidm_ContrastMap: ;
-	rdfs:label "Contrast Map: listening &gt; rest" ;
+	rdfs:label "Contrast Map: listening &gt; rest"^^xsd:string; ;
 	prov:atLocation "Contrast.nii.gz"^^xsd:anyURI ;
 	dct:format "image/nifti"^^xsd:string ;
 	nfo:fileName "Contrast.nii.gz"^^xsd:string ;
@@ -1773,7 +1774,7 @@ niiri:contrast_map_id a prov:Entity , nidm_ContrastMap: ;
 
 
 niiri:contrast_standard_error_map_id a prov:Entity , nidm_ContrastStandardErrorMap: ;
-	rdfs:label "Contrast Standard Error Map" ;
+	rdfs:label "Contrast Standard Error Map"^^xsd:string; ;
 	prov:atLocation "ContrastStandardError.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "ContrastStandardError.nii.gz"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string ;
@@ -1813,11 +1814,11 @@ niiri:contrast_standard_error_map_id a prov:Entity , nidm_ContrastStandardErrorM
                         <li><a title="sha512" href ="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#sha512">crypto:sha512</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Secure Hash Algorithm 512.
                         <li><a title="format" href ="http://purl.org/dc/terms/format">dct:format</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The file format, physical medium, or dimensions of the resource. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="NIDM_0000085">nidm:'contrast Name'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name of the contrast. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
-                        <li><a title="NIDM_0000091"><dfn title="NIDM_0000091">nidm:'effect Degrees Of Freedom'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'effect Degrees Of Freedom''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) In the context of a general linear model, the effect degrees of freedom is the rank of the contrast. For example, a contrast comprising of a vector has effect degrees of freedom of 1 and can be tested with a F-test with numerator degrees of freedom of 1. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000093"><dfn title="NIDM_0000093">nidm:'error Degrees Of Freedom'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'error Degrees Of Freedom''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) In the context of a general linear model, the error degrees of freedom are the number of observations less the rank of the <a title=NIDM_0000019>'Design Matrix'</a>. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000091"><dfn title="NIDM_0000091">nidm:'effect Degrees Of Freedom'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'effect Degrees Of Freedom''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) In the context of a general linear model, the effect degrees of freedom is the rank of the contrast. For example, a contrast comprising of a vector has effect degrees of freedom of 1 and can be tested with a F-test with numerator degrees of freedom of 1. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000093"><dfn title="NIDM_0000093">nidm:'error Degrees Of Freedom'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'error Degrees Of Freedom''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) In the context of a general linear model, the error degrees of freedom are the number of observations less the rank of the <a title=NIDM_0000019>'Design Matrix'</a>. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="NIDM_0000103">nidm:'has Map Header'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A Property that associates an additional file containing the <a title=NIDM_0000053>'Map Header'</a> with a map. (range <a title="NIDM_0000053">nidm:'Map Header'</a>).</li>
                         <li><a title="NIDM_0000104">nidm:'in Coordinate Space'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property of a DataArray to associate a <a title=NIDM_0000016>'Coordinate Space'</a> with a physical file. (range <a title="NIDM_0000016">nidm:'Coordinate Space'</a>).</li>
-                        <li><a title="NIDM_0000123">nidm:'statistic Type'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000039">stato:"statistic"</a> with a StatisticMap or a ContrastWeights entity. (range <a title="STATO_0000039" href ="http://purl.obolibrary.org/obo/STATO_0000039">obo:'statistic'</a> such as <a title="STATO_0000030" href ="http://purl.obolibrary.org/obo/STATO_0000030">obo:'Chi-Squared statistic'</a>, <a title="STATO_0000282" href ="http://purl.obolibrary.org/obo/STATO_0000282">obo:'F-statistic'</a>, <a title="STATO_0000376" href ="http://purl.obolibrary.org/obo/STATO_0000376">obo:'Z-statistic'</a>, <a title="STATO_0000176" href ="http://purl.obolibrary.org/obo/STATO_0000176">obo:'t-statistic'</a>).</li>
+                        <li><a title="NIDM_0000123">nidm:'statistic Type'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates a  <a href="http://purl.obolibrary.org/obo/STATO_0000039">stato:&quot;statistic&quot;</a> with a StatisticMap or a ContrastWeights entity. (range <a title="STATO_0000039" href ="http://purl.obolibrary.org/obo/STATO_0000039">obo:'statistic'</a> such as <a title="STATO_0000030" href ="http://purl.obolibrary.org/obo/STATO_0000030">obo:'Chi-Squared statistic'</a>, <a title="STATO_0000282" href ="http://purl.obolibrary.org/obo/STATO_0000282">obo:'F-statistic'</a>, <a title="STATO_0000376" href ="http://purl.obolibrary.org/obo/STATO_0000376">obo:'Z-statistic'</a>, <a title="STATO_0000176" href ="http://purl.obolibrary.org/obo/STATO_0000176">obo:'t-statistic'</a>).</li>
                         <li><a title="fileName" href ="http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName">nfo:'fileName'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name of the file, together with the extension. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="atLocation" href ="http://www.w3.org/ns/prov#atLocation">prov:atLocation</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The Location of any resource.
                 </ul>
@@ -1836,7 +1837,7 @@ niiri:contrast_standard_error_map_id a prov:Entity , nidm_ContrastStandardErrorM
 
 
 niiri:statistic_map_id a prov:Entity , nidm_StatisticMap: ;
-	rdfs:label "Statistic Map: listening &gt; rest" ;
+	rdfs:label "T-Statistic Map: listening &gt; rest"^^xsd:string; ;
 	prov:atLocation "TStatistic.nii.gz"^^xsd:anyURI ;
 	nidm_statisticType: obo_tstatistic: ;
 	nfo:fileName "TStatistic.nii.gz"^^xsd:string ;
@@ -1980,7 +1981,7 @@ niiri:statistic_map_id a prov:Entity , nidm_StatisticMap: ;
 
 
 niiri:inference_id a prov:Activity , nidm_Inference: ;
-	rdfs:label "Inference" ;
+	rdfs:label "Inference"^^xsd:string; ;
 	nidm_hasAlternativeHypothesis: nidm_OneTailedTest: ;
     prov:used niiri:statistic_map_id, niiri:height_threshold_id, niiri:extent_threshold_id, niiri:peak_definition_criteria_id, niiri:cluster_definition_criteria_id, niiri:mask_id ;
     prov:wasAssociatedWith niiri:software_id .</pre>
@@ -1994,7 +1995,7 @@ niiri:inference_id a prov:Activity , nidm_Inference: ;
 
 
 niiri:inference_id a prov:Activity , nidm_Inference: ;
-	rdfs:label "Inference" ;
+	rdfs:label "Inference"^^xsd:string; ;
 	nidm_hasAlternativeHypothesis: nidm_TwoTailedTest: ;
     prov:used niiri:statistic_map_id, niiri:height_threshold_id, niiri:extent_threshold_id, niiri:peak_definition_criteria_id, niiri:cluster_definition_criteria_id, niiri:mask_id ;
     prov:wasAssociatedWith niiri:software_id .</pre>
@@ -2021,7 +2022,7 @@ niiri:inference_id a prov:Activity , nidm_Inference: ;
 
 
 niiri:inference_id a prov:Activity , nidm_ConjunctionInference: ;
-	rdfs:label "Conjunction Inference" ;
+	rdfs:label "Conjunction Inference"^^xsd:string; ;
 	nidm_hasAlternativeHypothesis: nidm_OneTailedTest: ;
     prov:used niiri:statistic_map_id, niiri:statistic_map_id_2, niiri:height_threshold_id, niiri:extent_threshold_id, niiri:display_map_id, niiri:peak_definition_criteria_id, niiri:cluster_definition_criteria_id, niiri:mask_id_1 ;
     prov:wasAssociatedWith niiri:software_id .</pre>
@@ -2065,7 +2066,7 @@ niiri:inference_id a prov:Activity , nidm_ConjunctionInference: ;
 
 
 niiri:conjunction_id_2 a prov:Activity , spm_PartialConjunctionInference: ;
-	rdfs:label "SPM's Partial Conjunction Inference" ;
+	rdfs:label "SPM's Partial Conjunction Inference"^^xsd:string; ;
 	nidm_hasAlternativeHypothesis: nidm_OneTailedTest: ;
 	spm_partialConjunctionDegree: "1"^^xsd:int ;
     prov:used niiri:statistic_map_id_1, niiri:statistic_map_id_2, niiri:height_threshold_id, niiri:extent_threshold_id, niiri:display_map_id, niiri:peak_definition_criteria_id, niiri:cluster_definition_criteria_id, niiri:mask_id_1 ;
@@ -2095,7 +2096,7 @@ niiri:conjunction_id_2 a prov:Activity , spm_PartialConjunctionInference: ;
 
 
 niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCriteria: ;
-	rdfs:label "Cluster Connectivity Criterion: 6" ;
+	rdfs:label "Cluster Connectivity Criterion: 6"^^xsd:string; ;
 	nidm_hasConnectivityCriterion: nidm_voxel6connected: .</pre>
                 </ul>
                 </div>
@@ -2107,7 +2108,7 @@ niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCrite
 
 
 niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCriteria: ;
-	rdfs:label "Cluster Connectivity Criterion: 18" ;
+	rdfs:label "Cluster Connectivity Criterion: 18"^^xsd:string; ;
 	nidm_hasConnectivityCriterion: nidm_voxel18connected: .</pre>
                 </ul>
                 </div>
@@ -2119,7 +2120,7 @@ niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCrite
 
 
 niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCriteria: ;
-	rdfs:label "Cluster Connectivity Criterion: 26" ;
+	rdfs:label "Cluster Connectivity Criterion: 26"^^xsd:string; ;
 	nidm_hasConnectivityCriterion: nidm_voxel26connected: .</pre>
             <!-- nidm:'Connectivity Criterion' (NIDM_0000012) -->
             <section id="section-nidm:'Connectivity Criterion'">
@@ -2166,11 +2167,15 @@ niiri:cluster_definition_criteria_id a prov:Entity , nidm_ClusterDefinitionCrite
                 <pre class='example highlight' title="  Cluster Labels Map">
 
 @prefix nidm_ClusterLabelsMap: &lt;http://purl.org/nidash/nidm#NIDM_0000008&gt; .
+@prefix nidm_inCoordinateSpace: &lt;http://purl.org/nidash/nidm#NIDM_0000104&gt; .
 
 
 niiri:cluster_label_map_id a prov:Entity , nidm_ClusterLabelsMap: ;
 	prov:atLocation "ClusterLabels.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "ClusterLabels.nii.gz"^^xsd:string ;
+    rdfs:label "Cluster Labels Map"^^xsd:string; ;
+    nidm_inCoordinateSpace: niiri:coordinate_space_id_1 ;
+    crypto:sha512 "13093aae03897e2518307d000eb298f4b1439814d8d3d77c622b717423f93506dd5de5669513ab65c6dd74a7d27ee9df08620f546ed00575517b40e5878c2c96"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string .</pre>
                 </section>
             <!-- nidm:'Coordinate' (NIDM_0000015) -->
@@ -2196,7 +2201,7 @@ niiri:cluster_label_map_id a prov:Entity , nidm_ClusterLabelsMap: ;
 
 
 niiri:coordinate_0001 a prov:Entity , prov:Location , nidm_Coordinate: ;
-	rdfs:label "Coordinate: 0001" ;
+	rdfs:label "Coordinate: 0001"^^xsd:string; ;
 	nidm_coordinateVector: "[ -60, -28, 13 ]"^^xsd:string .</pre>
                 </section>
             <!-- nidm:'Display Mask Map' (NIDM_0000020) -->
@@ -2227,7 +2232,7 @@ niiri:coordinate_0001 a prov:Entity , prov:Location , nidm_Coordinate: ;
 
 
 niiri:display_map_id a prov:Entity , nidm_DisplayMaskMap: ;
-	rdfs:label "Display Mask Map" ;
+	rdfs:label "Display Mask Map"^^xsd:string; ;
 	prov:atLocation "DisplayMask.nii.gz"^^xsd:anyURI ;
 	dct:format "image/nifti"^^xsd:string ;
     nfo:fileName "DisplayMask.nii.gz"^^xsd:string ;
@@ -2251,7 +2256,7 @@ niiri:display_map_id a prov:Entity , nidm_DisplayMaskMap: ;
                         <li><a title="NIDM_0000103">nidm:'has Map Header'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A Property that associates an additional file containing the <a title=NIDM_0000053>'Map Header'</a> with a map. (range <a title="NIDM_0000053">nidm:'Map Header'</a>).</li>
                         <li><a title="NIDM_0000104">nidm:'in Coordinate Space'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property of a DataArray to associate a <a title=NIDM_0000016>'Coordinate Space'</a> with a physical file. (range <a title="NIDM_0000016">nidm:'Coordinate Space'</a>).</li>
                         <li><a title="NIDM_0000111"><dfn title="NIDM_0000111">nidm:'number Of Supra-Threshold Clusters'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'number Of Supra-Threshold Clusters''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Number of 'Supra-Threshold Clusters' found by the <a title=NIDM_0000049>'Inference'</a> activity. This is SPM's set level statistic. (range <a title="int" href ="http://www.w3.org/2001/XMLSchema#int">xsd:int</a>).</li>
-                        <li><a title="NIDM_0000114"><dfn title="NIDM_0000114">nidm:'p Value'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>)  (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000114"><dfn title="NIDM_0000114">nidm:'p Value'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>)  (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="NIDM_0000138"><dfn title="NIDM_0000138">nidm:'has Maximum Intensity Projection'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'has Maximum Intensity Projection''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates an image of the maximum intensity projection with an <a title=NIDM_0000025>'Excursion Set Map'</a>. (range <a title="Image" href ="http://purl.org/dc/dcmitype/Image">dctype:Image</a>).</li>
                         <li><a title="fileName" href ="http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName">nfo:'fileName'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Name of the file, together with the extension. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="atLocation" href ="http://www.w3.org/ns/prov#atLocation">prov:atLocation</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The Location of any resource.
@@ -2270,7 +2275,7 @@ niiri:display_map_id a prov:Entity , nidm_DisplayMaskMap: ;
 
 
 niiri:excursion_set_map_id a prov:Entity , nidm_ExcursionSetMap: ;
-	rdfs:label "Excursion Set Map" ;
+	rdfs:label "Excursion Set Map"^^xsd:string; ;
 	prov:atLocation "ExcursionSet.nii.gz"^^xsd:anyURI ;
 	dct:format "image/nifti"^^xsd:string ;
 	nfo:fileName "ExcursionSet.nii.gz"^^xsd:string ;
@@ -2294,7 +2299,7 @@ niiri:excursion_set_map_id a prov:Entity , nidm_ExcursionSetMap: ;
                     <li><span class="attribute" id="nidm:'Extent Threshold'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="NIDM_0000026">nidm:'Extent Threshold'</a>.</li>
                         <li><a title="NIDM_0000083"><dfn title="NIDM_0000083">nidm:'cluster Size In Vertices'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'cluster Size In Vertices''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Number of vertices that make up the cluster. (range <a title="positiveInteger" href ="http://www.w3.org/2001/XMLSchema#positiveInteger">xsd:positiveInteger</a>).</li>
                         <li><a title="NIDM_0000084"><dfn title="NIDM_0000084">nidm:'cluster Size In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'cluster Size In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Number of voxels that make up the cluster. (range <a title="positiveInteger" href ="http://www.w3.org/2001/XMLSchema#positiveInteger">xsd:positiveInteger</a>).</li>
-                        <li><a title="NIDM_0000156"><dfn title="NIDM_0000156">nidm:'cluster Size In Resels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'cluster Size In Resels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of cluster measured in resels. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000156"><dfn title="NIDM_0000156">nidm:'cluster Size In Resels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'cluster Size In Resels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of cluster measured in resels. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="NIDM_0000161"><dfn title="NIDM_0000161">nidm:'equivalent Threshold'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'equivalent Threshold''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Property that associates another <a title=NIDM_0000162>'Threshold'</a> that is equivalent (e.g. if the user specified a <a title=NIDM_0000162>'Threshold'</a> in terms of FWE-corrected p-value, this property can be used to associate the corresponding uncorrected p-value). (range <a title="NIDM_0000162">nidm:'Threshold'</a> such as <a title="NIDM_0000026">nidm:'Extent Threshold'</a>, <a title="NIDM_0000034">nidm:'Height Threshold'</a>).</li>
                 </ul>
                 </div>
@@ -2309,7 +2314,7 @@ niiri:excursion_set_map_id a prov:Entity , nidm_ExcursionSetMap: ;
 
 
 niiri:extent_threshold_stat_id a prov:Entity, nidm_ExtentThreshold:, obo_statistic: ;
-    rdfs:label "Extent Threshold: k&gt;=0" ;
+    rdfs:label "Extent Threshold: k&gt;=0"^^xsd:string; ;
     nidm_clusterSizeInVoxels: "0"^^xsd:int ;
     nidm_clusterSizeInResels: "0"^^xsd:float .</pre>
                 </ul>
@@ -2321,7 +2326,7 @@ niiri:extent_threshold_stat_id a prov:Entity, nidm_ExtentThreshold:, obo_statist
 
 
 niiri:extent_threshold_unc_id a prov:Entity, nidm_ExtentThreshold:, nidm_PValueUncorrected: ;
-    rdfs:label "Extent Threshold: p&lt;0.001 (uncorrected)" ;
+    rdfs:label "Extent Threshold: p&lt;0.001 (uncorrected)"^^xsd:string; ;
     prov:value "0.001"^^xsd:float .</pre>
                 </ul>
                 </div>
@@ -2332,7 +2337,7 @@ niiri:extent_threshold_unc_id a prov:Entity, nidm_ExtentThreshold:, nidm_PValueU
 
 
 niiri:extent_threshold_fdr_id a prov:Entity, nidm_ExtentThreshold:, obo_qvalue: ;
-    rdfs:label "Extent Threshold: p&lt;0.05 (FDR-corrected)" ;
+    rdfs:label "Extent Threshold: p&lt;0.05 (FDR-corrected)"^^xsd:string; ;
     prov:value "0.05"^^xsd:float .</pre>
                 </ul>
                 </div>
@@ -2344,7 +2349,7 @@ niiri:extent_threshold_fdr_id a prov:Entity, nidm_ExtentThreshold:, obo_qvalue: 
 
 
 niiri:extent_threshold_fwer_id a prov:Entity, nidm_ExtentThreshold:, obo_FWERadjustedpvalue: ;
-    rdfs:label "Extent Threshold: p&lt;0.05 (FWER-corrected)" ;
+    rdfs:label "Extent Threshold: p&lt;0.05 (FWER-corrected)"^^xsd:string; ;
     prov:value "0.05"^^xsd:float ;
     nidm_equivalentThreshold: niiri:extent_threshold_stat_id .</pre>
             <!-- nidm:'Threshold' (NIDM_0000162) -->
@@ -2384,7 +2389,7 @@ niiri:extent_threshold_fwer_id a prov:Entity, nidm_ExtentThreshold:, obo_FWERadj
 
 
 niiri:height_threshold_stat_id a prov:Entity, nidm_HeightThreshold:, obo_statistic: ;
-    rdfs:label "Height Threshold: Z&lt;0.0000000672357409" ;
+    rdfs:label "Height Threshold: Z&lt;0.0000000672357409"^^xsd:string; ;
     prov:value "0.0000000672357409"^^xsd:float .</pre>
                 </ul>
                 </div>
@@ -2395,7 +2400,7 @@ niiri:height_threshold_stat_id a prov:Entity, nidm_HeightThreshold:, obo_statist
 
 
 niiri:height_threshold_unc_id a prov:Entity, nidm_HeightThreshold:, nidm_PValueUncorrected: ;
-    rdfs:label "Height Threshold: p&lt;0.001 (uncorrected)" ;
+    rdfs:label "Height Threshold: p&lt;0.001 (uncorrected)"^^xsd:string; ;
     prov:value "0.001"^^xsd:float .</pre>
                 </ul>
                 </div>
@@ -2406,7 +2411,7 @@ niiri:height_threshold_unc_id a prov:Entity, nidm_HeightThreshold:, nidm_PValueU
 
 
 niiri:height_threshold_fdr_id a prov:Entity, nidm_HeightThreshold:, obo_qvalue: ;
-    rdfs:label "Height Threshold: p&lt;0.05 (FDR-corrected)" ;
+    rdfs:label "Height Threshold: p&lt;0.05 (FDR-corrected)"^^xsd:string; ;
     prov:value "0.05"^^xsd:float .</pre>
                 </ul>
                 </div>
@@ -2418,7 +2423,7 @@ niiri:height_threshold_fdr_id a prov:Entity, nidm_HeightThreshold:, obo_qvalue: 
 
 
 niiri:height_threshold_fwer_id a prov:Entity, nidm_HeightThreshold:, obo_FWERadjustedpvalue: ;
-    rdfs:label "Height Threshold: p&lt;0.05 (FWER-corrected)" ;
+    rdfs:label "Height Threshold: p&lt;0.05 (FWER-corrected)"^^xsd:string; ;
     prov:value "0.05"^^xsd:float ;
     nidm_equivalentThreshold: niiri:height_threshold_stat_id .</pre>
                 </section>
@@ -2432,10 +2437,10 @@ niiri:height_threshold_fwer_id a prov:Entity, nidm_HeightThreshold:, obo_FWERadj
                 <div class="attributes" id="attributes-nidm:'Peak'"> A <a title="NIDM_0000062">nidm:'Peak'</a> has attributes:
                 <ul>
                     <li><span class="attribute" id="nidm:'Peak'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="NIDM_0000062">nidm:'Peak'</a>.</li>
-                        <li><a title="NIDM_0000092"><dfn title="NIDM_0000092">nidm:'equivalent ZStatistic'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'equivalent ZStatistic''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Statistic value transformed into Z units; the output of a process which takes a non-normal statistic and transforms it to an equivalent z score. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000115"><dfn title="NIDM_0000115">nidm:'p Value FWER'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value FWER''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) "A quantitative confidence value resulting from a multiple testing error correction method which adjusts the p-value used as input to control for Type I error in the context of multiple pairwise tests". (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000116"><dfn title="NIDM_0000116">nidm:'p Value Uncorrected'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value Uncorrected''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A p-value reported without correction for multiple testing.        . (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000119"><dfn title="NIDM_0000119">nidm:'q Value FDR'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'q Value FDR''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A quantitative confidence value that measures the minimum false discovery rate that is incurred when calling that test significant. To compute q-values, it is necessary to know the p-value produced by a test and possibly set a false discovery rate level (same as OBI_0001442). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000092"><dfn title="NIDM_0000092">nidm:'equivalent ZStatistic'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'equivalent ZStatistic''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Statistic value transformed into Z units; the output of a process which takes a non-normal statistic and transforms it to an equivalent z score. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000115"><dfn title="NIDM_0000115">nidm:'p Value FWER'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value FWER''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) "A quantitative confidence value resulting from a multiple testing error correction method which adjusts the p-value used as input to control for Type I error in the context of multiple pairwise tests". (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000116"><dfn title="NIDM_0000116">nidm:'p Value Uncorrected'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'p Value Uncorrected''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A p-value reported without correction for multiple testing.        . (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000119"><dfn title="NIDM_0000119">nidm:'q Value FDR'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'q Value FDR''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A quantitative confidence value that measures the minimum false discovery rate that is incurred when calling that test significant. To compute q-values, it is necessary to know the p-value produced by a test and possibly set a false discovery rate level (same as OBI_0001442). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -2450,7 +2455,7 @@ niiri:height_threshold_fwer_id a prov:Entity, nidm_HeightThreshold:, obo_FWERadj
 
 
 niiri:peak_0001 a prov:Entity , nidm_Peak: ;
-    rdfs:label "Peak 0001" ;
+    rdfs:label "Peak 0001"^^xsd:string ;
     prov:atLocation niiri:coordinate_0001 ;
     nidm_pValueUncorrected: "4.44089209850063e-16"^^xsd:float ;
     nidm_equivalentZStatistic: "INF"^^xsd:float ;
@@ -2470,7 +2475,7 @@ niiri:peak_0001 a prov:Entity , nidm_Peak: ;
                 <ul>
                     <li><span class="attribute" id="nidm:'Peak Definition Criteria'.label">rdfs:label</span>:                     (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Human readable description of the <a title="NIDM_0000063">nidm:'Peak Definition Criteria'</a>.</li>
                         <li><a title="NIDM_0000108"><dfn title="NIDM_0000108">nidm:'max Number Of Peaks Per Cluster'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'max Number Of Peaks Per Cluster''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Maximum number of <a title=NIDM_0000062>'Peak'</a>s to be reported after <a title=NIDM_0000049>'Inference'</a> within a cluster. (range <a title="int" href ="http://www.w3.org/2001/XMLSchema#int">xsd:int</a>).</li>
-                        <li><a title="NIDM_0000109"><dfn title="NIDM_0000109">nidm:'min Distance Between Peaks'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'min Distance Between Peaks''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Minimum distance between two <a title=NIDM_0000062>'Peak'</a>s to be reported after <a title=NIDM_0000049>'Inference'</a>. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000109"><dfn title="NIDM_0000109">nidm:'min Distance Between Peaks'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'min Distance Between Peaks''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Minimum distance between two <a title=NIDM_0000062>'Peak'</a>s to be reported after <a title=NIDM_0000049>'Inference'</a>. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -2483,7 +2488,7 @@ niiri:peak_0001 a prov:Entity , nidm_Peak: ;
 
 
 niiri:peak_definition_criteria_id a prov:Entity , nidm_PeakDefinitionCriteria: ;
-	rdfs:label "Peak Definition Criteria" ;
+	rdfs:label "Peak Definition Criteria"^^xsd:string; ;
 	nidm_minDistanceBetweenPeaks: "8.0"^^xsd:float ;
     nidm_maxNumberOfPeaksPerCluster: "3"^^xsd:int .</pre>
                 </section>
@@ -2504,16 +2509,16 @@ niiri:peak_definition_criteria_id a prov:Entity , nidm_PeakDefinitionCriteria: ;
                         <li><a title="NIDM_0000106">nidm:'is User Defined'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A binary flag defining whether the mask was specified by the user (true) or automatically generated during the analysis (false). (range <a title="boolean" href ="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a>).</li>
                         <li><a title="NIDM_0000120"><dfn title="NIDM_0000120">nidm:'random Field Stationarity'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'random Field Stationarity''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A binary flag that indicates whether Random Field Theory methods assumed smoothness that was homogeneous over the map (true), or allowed for smoothness that varies over the map (false). (range <a title="boolean" href ="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a>).</li>
                         <li><a title="NIDM_0000121"><dfn title="NIDM_0000121">nidm:'search Volume In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Total number of voxels within the search volume. (range <a title="positiveInteger" href ="http://www.w3.org/2001/XMLSchema#positiveInteger">xsd:positiveInteger</a>).</li>
-                        <li><a title="NIDM_0000136"><dfn title="NIDM_0000136">nidm:'search Volume In Units'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Units''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The volume of the searched region in units determined by the current <a title=NIDM_0000016>'Coordinate Space'</a> units (e.g., mm^3 for axis units of mm in a three dimensional image, sec.Hz for a time by frequency two dimensional image). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000137"><dfn title="NIDM_0000137">nidm:'search Volume In Vertices'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Vertices''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Total number of vertices within the search volume. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000141"><dfn title="NIDM_0000141">nidm:'expected Number Of Clusters'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Clusters''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of clusters in an excursion set under the null hypothesis. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000142"><dfn title="NIDM_0000142">nidm:'expected Number Of Vertices Per Cluster'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Vertices Per Cluster''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of vertices in a cluster under the null hypothesis. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000143"><dfn title="NIDM_0000143">nidm:'expected Number Of Voxels Per Cluster'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Voxels Per Cluster''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of voxels in a cluster under the null hypothesis. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000145"><dfn title="NIDM_0000145">nidm:'noise Roughness In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'noise Roughness In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Estimated spatial roughness of the noise process in <a title=NIDM_0000133>'voxel Units'</a>, as measured by the square-root determinant of the variance-covariance matrix of spatial derivatives of the noise process (Lambda matrix). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000146"><dfn title="NIDM_0000146">nidm:'height Critical Threshold FDR 05'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'height Critical Threshold FDR 05''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) <a title=NIDM_0000062>'Peak'</a> statistic <a title=NIDM_0000162>'Threshold'</a> corrected for false discovery rate at a level of alpha = 0.05. . (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000147"><dfn title="NIDM_0000147">nidm:'height Critical Threshold FWE 05'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'height Critical Threshold FWE 05''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) <a title=NIDM_0000062>'Peak'</a> statistic <a title=NIDM_0000162>'Threshold'</a> corrected for family-wise error at a level of alpha = 0.05. . (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000148"><dfn title="NIDM_0000148">nidm:'resel Size In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'resel Size In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of one resel in elements (e.g., pixels, voxels or vertices). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000149"><dfn title="NIDM_0000149">nidm:'search Volume In Resels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Resels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of search volume measured in resels. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000136"><dfn title="NIDM_0000136">nidm:'search Volume In Units'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Units''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) The volume of the searched region in units determined by the current <a title=NIDM_0000016>'Coordinate Space'</a> units (e.g., mm^3 for axis units of mm in a three dimensional image, sec.Hz for a time by frequency two dimensional image). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000137"><dfn title="NIDM_0000137">nidm:'search Volume In Vertices'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Vertices''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Total number of vertices within the search volume. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000141"><dfn title="NIDM_0000141">nidm:'expected Number Of Clusters'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Clusters''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of clusters in an excursion set under the null hypothesis. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000142"><dfn title="NIDM_0000142">nidm:'expected Number Of Vertices Per Cluster'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Vertices Per Cluster''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of vertices in a cluster under the null hypothesis. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000143"><dfn title="NIDM_0000143">nidm:'expected Number Of Voxels Per Cluster'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'expected Number Of Voxels Per Cluster''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Expected number of voxels in a cluster under the null hypothesis. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000145"><dfn title="NIDM_0000145">nidm:'noise Roughness In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'noise Roughness In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Estimated spatial roughness of the noise process in <a title=NIDM_0000133>'voxel Units'</a>, as measured by the square-root determinant of the variance-covariance matrix of spatial derivatives of the noise process (Lambda matrix). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000146"><dfn title="NIDM_0000146">nidm:'height Critical Threshold FDR 05'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'height Critical Threshold FDR 05''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) <a title=NIDM_0000062>'Peak'</a> statistic <a title=NIDM_0000162>'Threshold'</a> corrected for false discovery rate at a level of alpha = 0.05. . (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000147"><dfn title="NIDM_0000147">nidm:'height Critical Threshold FWE 05'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'height Critical Threshold FWE 05''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) <a title=NIDM_0000062>'Peak'</a> statistic <a title=NIDM_0000162>'Threshold'</a> corrected for family-wise error at a level of alpha = 0.05. . (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000148"><dfn title="NIDM_0000148">nidm:'resel Size In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'resel Size In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of one resel in elements (e.g., pixels, voxels or vertices). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000149"><dfn title="NIDM_0000149">nidm:'search Volume In Resels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'search Volume In Resels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of search volume measured in resels. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                         <li><a title="NIDM_0000157"><dfn title="NIDM_0000157">nidm:'noise FWHM In Units'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'noise FWHM In Units''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Estimated Full Width at Half Maximum of the spatial smoothness of the noise process in world units (e.g. mm^2 or mm^3, in subject or atlas space). (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
                         <li><a title="NIDM_0000158">nidm:'noise FWHM In Vertices'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Estimated Full Width at Half Maximum of the spatial smoothness of the noise process in vertices.
                         <li><a title="NIDM_0000159"><dfn title="NIDM_0000159">nidm:'noise FWHM In Voxels'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'noise FWHM In Voxels''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Estimated Full Width at Half Maximum of the spatial smoothness of the noise process in voxels. (range <a title="string" href ="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>).</li>
@@ -2549,7 +2554,7 @@ niiri:peak_definition_criteria_id a prov:Entity , nidm_PeakDefinitionCriteria: ;
 
 
 niiri:search_space_mask_id a prov:Entity , nidm_SearchSpaceMaskMap: ;
-	rdfs:label "Search Space Mask Map" ;
+	rdfs:label "Search Space Mask Map"^^xsd:string; ;
 	prov:atLocation "SearchSpaceMask.nii.gz"^^xsd:anyURI ;
 	nfo:fileName "SearchSpaceMask.nii.gz"^^xsd:string ;
 	dct:format "image/nifti"^^xsd:string ;
@@ -2584,10 +2589,10 @@ niiri:search_space_mask_id a prov:Entity , nidm_SearchSpaceMaskMap: ;
                         <li><a title="NIDM_0000082"><dfn title="NIDM_0000082">nidm:'cluster Label Id'</dfn></a> <a href="https://github.com/incf-nidash/nidm/issues?&q=is%3Aopen+'nidm:'cluster Label Id''""><sup>&#9734;</sup></a><a href="https://github.com/incf-nidash/nidm/issues/new";"><sup>+</sup></a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Integer value used in the cluster label map to identify the location of the cluster within the excursion set. (range <a title="int" href ="http://www.w3.org/2001/XMLSchema#int">xsd:int</a>).</li>
                         <li><a title="NIDM_0000083">nidm:'cluster Size In Vertices'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Number of vertices that make up the cluster. (range <a title="positiveInteger" href ="http://www.w3.org/2001/XMLSchema#positiveInteger">xsd:positiveInteger</a>).</li>
                         <li><a title="NIDM_0000084">nidm:'cluster Size In Voxels'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Number of voxels that make up the cluster. (range <a title="positiveInteger" href ="http://www.w3.org/2001/XMLSchema#positiveInteger">xsd:positiveInteger</a>).</li>
-                        <li><a title="NIDM_0000115">nidm:'p Value FWER'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) "A quantitative confidence value resulting from a multiple testing error correction method which adjusts the p-value used as input to control for Type I error in the context of multiple pairwise tests". (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000116">nidm:'p Value Uncorrected'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A p-value reported without correction for multiple testing.        . (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000119">nidm:'q Value FDR'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A quantitative confidence value that measures the minimum false discovery rate that is incurred when calling that test significant. To compute q-values, it is necessary to know the p-value produced by a test and possibly set a false discovery rate level (same as OBI_0001442). (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
-                        <li><a title="NIDM_0000156">nidm:'cluster Size In Resels'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of cluster measured in resels. (range <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000115">nidm:'p Value FWER'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) "A quantitative confidence value resulting from a multiple testing error correction method which adjusts the p-value used as input to control for Type I error in the context of multiple pairwise tests". (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000116">nidm:'p Value Uncorrected'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A p-value reported without correction for multiple testing.        . (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000119">nidm:'q Value FDR'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) A quantitative confidence value that measures the minimum false discovery rate that is incurred when calling that test significant. To compute q-values, it is necessary to know the p-value produced by a test and possibly set a false discovery rate level (same as OBI_0001442). (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
+                        <li><a title="NIDM_0000156">nidm:'cluster Size In Resels'</a></span>: (<em class="rfc2119" title="OPTIONAL">OPTIONAL</em>) Size of cluster measured in resels. (range <a title="double" href ="http://www.w3.org/2001/XMLSchema#double">xsd:double</a>, <a title="float" href ="http://www.w3.org/2001/XMLSchema#float">xsd:float</a>).</li>
                 </ul>
                 </div>
                 </ul>
@@ -2604,7 +2609,7 @@ niiri:search_space_mask_id a prov:Entity , nidm_SearchSpaceMaskMap: ;
 
 
 niiri:supra_threshold_cluster_0001 a prov:Entity , nidm_SupraThresholdCluster: ;
-	rdfs:label "Supra-Threshold Cluster 0001" ;
+	rdfs:label "Supra-Threshold Cluster 0001"^^xsd:string; ;
 	nidm_clusterSizeInVoxels: "530"^^xsd:int ;
 	nidm_clusterLabelId: "1"^^xsd:int ;
 	nidm_clusterSizeInResels: "23.1209189500945"^^xsd:float ;
@@ -2727,7 +2732,7 @@ niiri:supra_threshold_cluster_0001 a prov:Entity , nidm_SupraThresholdCluster: ;
 
 
 niiri:center_of_gravity_1 a prov:Entity , nidm_ClusterCenterOfGravity: ;
-	rdfs:label "Center of gravity" ;
+	rdfs:label "Center of gravity"^^xsd:string ;
 	prov:atLocation niiri:coordinate_0001 ;
 	prov:wasDerivedFrom niiri:supra_threshold_cluster_0001 .</pre>
                 </section>
